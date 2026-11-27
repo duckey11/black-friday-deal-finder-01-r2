@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Radar — Black Friday 2026: 46 real deals, checked today</title>
+<meta name="description" content="46 verified Black Friday 2026 deals from Amazon, Best Buy, Walmart, Target, Costco and more. Every price checked 27 Nov 2026, with an honest verdict on each one.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">◉</span>
+      <div>
+        <strong>DEAL RADAR</strong>
+        <span class="brand-sub">Black Friday 2026 &middot; United States</span>
+      </div>
+    </div>
+    <p class="header-date">All prices checked <strong>27 Nov 2026</strong></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="kicker">BLACK FRIDAY &middot; LIVE TODAY &middot; ENDS 30 NOV</p>
+    <h1>Real Black Friday deals. Real prices. No inflated “was” prices.</h1>
+    <p class="lede">Every deal below was checked today against the store or a deals source that names the store. Each one carries an honest verdict: a new low, a strong cut, a solid saving, or a modest one you should only buy if you need it now.</p>
+    <div class="stats" id="stats">
+      <div class="stat"><span class="stat-num" id="stat-deals">–</span><span class="stat-label">verified deals</span></div>
+      <div class="stat"><span class="stat-num" id="stat-saved">–</span><span class="stat-label">total savings if you bought them all</span></div>
+      <div class="stat"><span class="stat-num" id="stat-biggest-pct">–</span><span class="stat-label">deepest discount</span></div>
+      <div class="stat"><span class="stat-num" id="stat-avg-pct">–</span><span class="stat-label">average discount</span></div>
+      <div class="stat"><span class="stat-num" id="stat-newlows">–</span><span class="stat-label">all-time low prices</span></div>
+      <div class="stat"><span class="stat-num" id="stat-biggest-save">–</span><span class="stat-label">biggest single saving</span></div>
+    </div>
+    <p class="summary" id="summary-line"></p>
+  </section>
+
+  <section class="spotlight" aria-labelledby="spotlight-h">
+    <h2 id="spotlight-h">Best value: the three biggest savings</h2>
+    <div id="spotlight-list" class="spotlight-list"></div>
+  </section>
+
+  <section class="controls" aria-label="Search and filter deals">
+    <div class="control-row">
+      <label class="search-label">Search
+        <input id="search" type="search" placeholder="Try “AirPods”, “TV”, “Dyson”…" autocomplete="off">
+      </label>
+      <label>Store
+        <select id="retailer-filter"></select>
+      </label>
+      <label>Minimum discount
+        <select id="min-discount">
+          <option value="0">Any discount</option>
+          <option value="25">25% off or more</option>
+          <option value="40">40% off or more</option>
+          <option value="50">50% off or more</option>
+        </select>
+      </label>
+      <label>Sort by
+        <select id="sort">
+          <option value="pct">Biggest % off first</option>
+          <option value="saved">Biggest $ saving first</option>
+          <option value="price">Lowest price first</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </label>
+    </div>
+    <div id="category-bar" class="category-bar" role="group" aria-label="Filter by category"></div>
+    <p id="result-count" class="result-count" aria-live="polite"></p>
+  </section>
+
+  <section aria-labelledby="deals-h">
+    <h2 id="deals-h" class="section-title">All deals</h2>
+    <div id="deal-grid" class="grid"></div>
+  </section>
+
+  <section class="compare-section" aria-labelledby="compare-h">
+    <h2 id="compare-h">Same product, different stores: who is actually cheapest?</h2>
+    <p class="section-intro">Four products where the price differs by store. The cheapest store is marked, so you do not pay more for the same box.</p>
+    <div id="compare-list" class="compare-list"></div>
+  </section>
+
+  <section class="method" aria-labelledby="method-h">
+    <h2 id="method-h">How every price was checked</h2>
+    <ol>
+      <li><strong>Found on 27 Nov 2026.</strong> Each deal was read today from the retailer's own sale or from a deals source that names the retailer (MacRumors, 9to5Mac, 9to5Toys, CNN Underscored, TradingView/Benzinga, UltraGamerZ, Popular Science, and others). The source is linked on every card.</li>
+      <li><strong>Both prices shown.</strong> Sale price and list price come from the same source. The discount and the dollars saved are computed from those two numbers, so they always add up.</li>
+      <li><strong>Honest verdicts.</strong> <span class="verdict v-newlow">NEW LOW</span> means the lowest price ever tracked for that product, according to the source. <span class="verdict v-strong">STRONG DEAL</span> is a deep cut, usually 40% off or more. <span class="verdict v-solid">SOLID DEAL</span> is a real saving that has appeared before. <span class="verdict v-modest">MODEST</span> is a small cut: buy it only if you need it now.</li>
+      <li><strong>What was left out.</strong> Deals with no verifiable list price, conflicting prices across sources, or a price from before this sale were not listed. Two consoles (new PS5 and Xbox) have no discount anywhere this year, so they are not here: the only PS5 cut is a certified refurbished model.</li>
+      <li><strong>Prices move.</strong> Black Friday prices change by the hour and stock sells out. Always confirm the price at checkout before you pay.</li>
+    </ol>
+    <h3>Sale windows</h3>
+    <ul class="windows">
+      <li><strong>Amazon</strong> Black Friday Week: 19–30 Nov</li>
+      <li><strong>Best Buy</strong> Black Friday Sale: 19–28 Nov</li>
+      <li><strong>Walmart</strong> Black Friday Deals: 23–29 Nov</li>
+      <li><strong>Target</strong> Black Friday: 22–29 Nov</li>
+      <li><strong>Google Store</strong>: selected deals end 2 Dec</li>
+      <li><strong>Cyber Monday</strong>: 30 Nov</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Deal Radar is an independent deal finder. It is not affiliated with Amazon, Best Buy, Walmart, Target, Google, Sony, Nintendo, Apple, or any store named here. Store links go to each retailer's own listing for the product. Prices were checked 27 Nov 2026 and can change.</p>
+  </div>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
