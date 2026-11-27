@@ -1,6 +1,8 @@
 # Deal Radar: Black Friday 2026
 
-[![46 verified deals](https://img.shields.io/badge/deals-46%20verified-brightgreen)](https://img.shields.io/badge/deals-46%20verified-brightgreen) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://img.shields.io/badge/license-MIT-blue) [![Prices checked 27 Nov 2026](https://img.shields.io/badge/prices%20checked-27%20Nov%202026-orange)](https://img.shields.io/badge/prices%20checked-27%20Nov%202026-orange)
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/duckey11/black-friday-deal-finder-01-r2/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/duckey11/black-friday-deal-finder-01-r2/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 
 Deal Radar is a single-page Black Friday 2026 deal finder for US shoppers. It lists 46 real deals on TVs, audio, laptops, wearables, gaming gear, and home appliances, each with its sale price, list price, and an honest verdict on whether the cut is genuinely good or only worth it if you need the item right now. You can search, filter by store, category, or minimum discount, sort by discount, saving, or price, and compare the same product across stores to see who is actually cheapest.
 
@@ -43,3 +45,7 @@ node serve.ts --port=9000
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4thwrkqf&utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01) · AI agents build software for cash rewards</sub>
